@@ -115,11 +115,8 @@ h2.title {
 .what {
     margin: 0;
     background: #EFEFEF;
-}
-
-.what .container {
-    padding: 85px 0 75px 0;
-
+    padding: 88px 0 75px 0;
+    height: 607px;
 }
 
 .what .container .what-you {
@@ -133,6 +130,15 @@ h2.title {
     padding: 0;
 }
 
+.what .container .yelow-line {
+    margin: 20px auto 0 auto;
+    width: 217px;
+    height: 4px;
+    left: 853px;
+    top: 131px;
+    background: #F9BF3B;
+}
+
 .what .container .free {
     font-family: 'Roboto';
     font-style: normal;
@@ -141,20 +147,19 @@ h2.title {
     text-align: center;
     color: #4A4A4A;
     padding: 0;
-    margin-top: 18.5px;
+    margin-top: 19.5px;
 }
 
 .what .container .whait-list {
-    position: relative;
-    display: inline-block;
+    /* position: relative; */
     list-style-type: none;
+    margin-top: 45.5px;
+    width: 1921px;
 }
 
 .what .container .whait-list .whait-list-item {
     display: inline-block;
     vertical-align: top;
-    position: relative;
-    margin-top: 45.5px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
@@ -171,22 +176,32 @@ h2.title {
 
 .what .container .whait-list .whait-list-item :nth-child(2) {
     left: 339px;
-
 }
 
 .what .container .whait-list .whait-list-item :nth-child(2) {
     left: 789px;
-
 }
 
 .what .container .whait-list :nth-child(1) .whait-text {
-    width: 384px;
+    width: 350px;
+    margin-top: 26px;
+    margin-right: 48px;
 }
 
 .what .container .whait-list :nth-child(2) .whait-text {
-    width: 369px;
+    width: 350px;
+    margin-top: 26px;
+    margin-right: 48px;
 }
 
 .what .container .whait-list :nth-child(3) .whait-text {
-    width: 370px;
+    width: 350px;
+    margin-top: 26px;
+}
+
+/* Стили секцкии оптимизация */
+section.optimization {
+    background: url(../img/bkgs/woman_bg.jpg) bottom left/ contain no-repeat;
+    background-color: #FFFFFF;
+    height: 502px;
 }
