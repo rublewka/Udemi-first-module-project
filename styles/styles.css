@@ -28,6 +28,7 @@
 }
 
 .container {
+    position: relative;
     width: 1140px;
     margin: 0 auto;
 }
@@ -116,7 +117,7 @@ h2.title {
     margin: 0;
     background: #EFEFEF;
     padding: 88px 0 75px 0;
-    height: 607px;
+    min-height: 607px;
 }
 
 .what .container .what-you {
@@ -174,8 +175,99 @@ h2.title {
 
 
 /* Стили секцкии оптимизация */
-section.optimization {
-    background: url(../img/bkgs/woman_bg.jpg) bottom left/ contain no-repeat;
-    background-color: #FFFFFF;
-    height: 502px;
+.optimization {
+    /* background-position: 150px 47px;
+    background: url(../img/bkgs/woman_bg.jpg) bottom left/ contain no-repeat; */
+    /* background-color: #FFFFFF; */
+    min-height: 550px;
+    padding: 108px 0 74px 0;
+}
+
+.optimization .optimization-title {
+    margin-left: 391px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+
+.optimization .optimizaton-text {
+    margin-left: 391px;
+    margin-top: 25px;
+    min-height: 312px;
+    width: 750px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+}
+
+.optimization .optimizaton-text span {
+    font-weight: 700;
+}
+
+.optimization .optimization-bkg .opt-bkg {
+    position: absolute;
+    top: -61px;
+    left: -240px;
+    z-index: -1;
+}
+
+/* Стилизация секции финиш */
+.finish {
+    background: url('../img/bkgs/second_bg.jpg') center center/ cover no-repeat;
+    min-height: 447px;
+    padding: 86px 0 68.5px 0;
+}
+
+.finish .finish-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #EFEFEF;
+}
+
+.finish .yelow-line {
+    width: 220px;
+    height: 7px;
+    background: #F9BF3B;
+    margin: 18px auto 0 auto;
+}
+
+.finish .spels-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-top: 39px;
+}
+
+.finish .spels-list .spel-round {
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background: #B4E2FF;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.finish .spels-list .spel-text {
+    margin-top: 26.5px;
+    width: 234px;
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #EFEFEF;
 }
