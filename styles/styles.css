@@ -151,15 +151,13 @@ h2.title {
 }
 
 .what .container .whait-list {
-    /* position: relative; */
-    list-style-type: none;
-    margin-top: 45.5px;
-    width: 1921px;
+    display: flex;
+    list-style: none;
+    margin-top: 45px;
+    justify-content: space-around;
 }
 
 .what .container .whait-list .whait-list-item {
-    display: inline-block;
-    vertical-align: top;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
@@ -167,37 +165,13 @@ h2.title {
     line-height: 21px;
     text-align: center;
     color: #4A4A4A;
-    top: 45.5px;
-}
-
-.what .container .whait-list .whait-list-item :nth-child(1) {
-    right: 9px;
-}
-
-.what .container .whait-list .whait-list-item :nth-child(2) {
-    left: 339px;
-}
-
-.what .container .whait-list .whait-list-item :nth-child(2) {
-    left: 789px;
-}
-
-.what .container .whait-list :nth-child(1) .whait-text {
     width: 350px;
-    margin-top: 26px;
-    margin-right: 48px;
 }
 
-.what .container .whait-list :nth-child(2) .whait-text {
-    width: 350px;
-    margin-top: 26px;
-    margin-right: 48px;
-}
-
-.what .container .whait-list :nth-child(3) .whait-text {
-    width: 350px;
+.what .container .whait-list .whait-list-item .whait-text {
     margin-top: 26px;
 }
+
 
 /* Стили секцкии оптимизация */
 section.optimization {
