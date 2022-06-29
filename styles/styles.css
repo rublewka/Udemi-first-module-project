@@ -336,3 +336,23 @@ h2.title {
     text-transform: uppercase;
     color: #252525;
 }
+
+.start .start-text .start-deadline {
+    display: block;
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    color: #299CBD;
+}
+
+.start .start-text .start-quick {
+    display: block;
+    margin-top: 24.5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    color: #4A4A4A;
+}
