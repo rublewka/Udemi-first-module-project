@@ -271,3 +271,68 @@ h2.title {
     text-align: center;
     color: #EFEFEF;
 }
+
+/* Стилизация секции подарок */
+.gift {
+    min-height: 631px;
+    padding: 85px 0 88px 0;
+    background: #EFEFEF;
+}
+
+.gift .gift-content .gift-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gift .gift-content .gift-text {
+    margin-top: 45px;
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    color: #252525;
+}
+
+.gift .gift-content .gift-buton {
+    display: block;
+    margin: 51px auto 0 auto;
+    width: 313px;
+    height: 72px;
+    left: 805px;
+    top: 471px;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    border: 0;
+    font-family: 'RobotoCondensed';
+    font-size: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+}
+
+/* Стилизация секции старт */
+.start {
+    min-height: 512px;
+    padding: 81px 0 52px 0;
+}
+
+.start .start-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.start .start-text {
+    margin-top: 36px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+}
